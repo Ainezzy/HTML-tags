@@ -1,0 +1,135 @@
+
+<!------------ Document Structure ------------>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Implement HTML tags</title>
+        <!------------ Meta Information ------------>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+
+            .aDiv {
+              display:block;
+              color:brown;
+            }
+        </style>
+    </head>
+    <body>
+        <!------------ Text Formatting ------------>
+        <p>------------ Text Formatting ------------</p>
+        <p>This is a paragraph.</p>
+        <p>The 'b' tag makes a text <b>bold</b>.</p>
+        <p>The 'i' tag makes a text <i>italic</i>.</p>
+        <p>The 'u' tag underlines a <u>text</u>.</p>
+        <p>The 'strong' tag indicates a <strong>strong</strong> importance.</p>
+        <p>The 'em' tag indicates <em>emphasis</em>.</p>
+        <p>The 'br' tag inserts a<br> line break.</p>
+
+
+        <!------------ Lists ------------>
+        <br><br>
+        <p>------------ Lists ------------</p>
+        <p>The 'li' tag defines a list</p>
+        <li>List #1</li>
+        <li>List #2</li>
+        <li>List #3</li>
+
+        <p>The 'ol' tag defines an <strong>ordered</strong> list.</p>
+        <ol>
+            <li>Apple</li>
+            <li>Bad</li>
+            <li>Cat</li>
+            <li>Dinosaur</li>
+            <li>Elephant</li>
+        </ol>
+
+        <p>The 'ul' tag defines an <strong>unordered</strong> list.</p>
+        <ul>
+            <li>Apple</li>
+            <li>Bad</li>
+            <li>Cat</li>
+            <li>Dinosaur</li>
+            <li>Elephant</li>
+        </ul>
+
+        <!------------ Links ------------>
+        <br><br>
+        <p>------------ Links ------------</p>
+        <p>The 'a' tag defines a hyperlink. <a href="https://www.w3schools.com">Click Me!</a></p>
+
+
+        <!------------ Images ------------>
+        <br><br>
+        <p>------------ Images ------------</p>
+        <p>The 'img src' tag embeds an image on the page. The 'img alt' provides an alternative text for accessibility.</p>
+        <img src="an emoji.png" alt="An image"  width="300" height="300">
+
+
+        <!------------ Tables ------------>
+        <br><br>
+        <p>------------ Tables ------------</p>
+        <p>The 'table' tag defines a table. Inside the table are the tags 'tr, th, and td' which defines a row, header cell, and a data in the cell.</p>
+        <table>
+            <tr>
+                <th>Letters</th>
+                <th>Numbers</th>
+            </tr>
+            <tr>
+                <td>ABCD</td>
+                <td>1234</td>
+            </tr>
+        </table>
+
+
+        <!------------ Forms ------------>
+        <br><br>
+        <p>------------ Forms ------------</p>
+        <p>The 'form' tag defines a form for user input. Inside, tags like 'label and input can be used to get user's input.</p>
+        <form>
+            <label>First Name: </label>
+            <input type="text" id="fname" name="fname"><br>
+            <input type="Submit" value="Submit">
+        </form>
+
+
+        <!------------ Semantic Elements ------------>
+        <br><br>
+        <p>------------ Semantic Elements ------------</p>
+        <p>Clearly describes its meaning to both the browser and the developer.</p>
+        <article>
+            <h1>'Article' Tag</h1>
+            <p>The 'article' tag specifies independent, self-contained content.</p>
+        </article>
+        <section>
+            <h1>'Section' Tag</h1>
+            <p>The 'section' tag defines a section in a document.</p>
+        </section>
+
+        <!------------ Interactive Elements ------------>
+        <br><br>
+        <p>------------ Interactive Elements ------------</p>
+        <p>The 'button' tag creates a clickable button.</p>
+        <button type="button">Click Me!</button>
+
+        
+        <!------------ Box Model ------------>
+        <br><br>
+        <p>------------ Box Model ------------</p>
+        <p>The 'div' tag is used as a container for HTML elements.</p>
+        <div class="aDiv">
+            <p>This is a sentence in a <strong>div</strong> element. <br>which can then be easily styled with CSS using its class/id attribute. </p>
+        </div>
+
+        <br><br>
+        <br><br>
+        <br><br>
+        
+
+    </body>
+</html>
